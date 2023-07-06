@@ -1,0 +1,39 @@
+.heading{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 40px;
+}
+.image{
+    animation:fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 10s; /* don't forget to set a duration! */
+    border: 2px solid rgb(199, 112, 216);
+    border-radius: 5%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.head p{
+  text-align: center;  
+  font-size: 20px;
+ 
+}
+.react{
+    display: flex;
+    gap: 5%;
+    margin-left: 6%;
+    margin-top: 5%;
+
+}
+.react ul{
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px 20px 20px;
+    border: 3px solid rgb(187, 122, 241);
+    border-radius: 20% 5%;}
+.reactjs{
+    margin-top: 5%;
+   margin-left: 30%; 
+}   
+body{
+    background-color: rgb(240, 204, 237);
+}
+    
